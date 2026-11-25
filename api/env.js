@@ -1,0 +1,1 @@
+export const domain = 'https://doctor-assist.inet.co.th';

@@ -4,9 +4,9 @@
 ##########################################################################
 ##########################################################################
 ##########################################################################
-                     API="checkup_register" 
+                     API="Register_Checkup_Direct" 
                      google_sheet="https://docs.google.com/spreadsheets/d/1f-25xJyTb2Z5kKgHqnatT9xKQOuV40RpJCSZyAePMms/edit?gid=1610289956#gid=1610289956" 
-                     id="6"                 #เปลี่ยน id ทุกครั้งที่ยิง
+                     id="1"                 #เปลี่ยน id ทุกครั้งที่ยิง
                      user="10000";              #จำนวนผู้ใช้งาน
                      duration="1";          #วินาที
                      scenario="1"           #scenario="1" ยิงเเบบกำหนด request (duration ได้แค่ 1 วินาที)
