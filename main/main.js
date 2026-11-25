@@ -14,7 +14,7 @@ import { Get_Checkup_Cache } from '../api/Get_Checkup_Cache.js';
 
 export default function () {    //เรียกใช้ API ใน export default function
   //response = checkup_register()
-  // response = Register_Checkup_Direct()
+  response = Register_Checkup_Direct()
   // response = Register_Checkup_Mq()
   // response = Get_Checkup_Direct()
   // response = Get_Checkup_Cache()

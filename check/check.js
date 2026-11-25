@@ -3,6 +3,7 @@ import { check } from 'k6';
 export function error_check(response) {
   check(response, {
     '200 OK': (r) => r.status === 200,
+    '202 Accepted': (r) => r.status === 202,
     '201 Created': (r) => r.status === 201,
     '204 No Content': (r) => r.status === 204,
     '400 Bad Request': (r) => r.status === 400,
